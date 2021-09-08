@@ -1,0 +1,39 @@
+{
+    "name": "callsmusicremix",
+    "version": "1.0.0",
+    "description": "An operational and exprimental Telegram music bot.",
+    "main": "dist",
+    "scripts": {
+        "start": "node dist",
+        "build": "tsc",
+        "prepare": "npm run build",
+        "test": "tsc --noEmit",
+        "prettier": "prettier run --write **"
+    },
+    "author": "Roj Serbest <roj@rojser.best>",
+    "dependencies": {
+        "@types/i18n": "^0.13.1",
+        "dotenv": "^10.0.0",
+        "envalid": "^7.2.1",
+        "fluent-ffmpeg": "^2.1.2",
+        "got": "^11.8.2",
+        "gram-tgcalls": "^2.0.3",
+        "grammy": "^1.3.3",
+        "i18n": "^0.13.3",
+        "node-pre-gyp": "^0.17.0",
+        "telegram": "^1.8.10",
+        "ytdl-core": "^4.9.1",
+        "ytpl": "^2.2.3",
+        "ytsr": "^3.5.3"
+    },
+    "devDependencies": {
+        "@grammyjs/types": "^2.2.6",
+        "@types/fluent-ffmpeg": "^2.1.18",
+        "@types/node": "^16.3.0",
+        "prettier": "^2.3.2",
+        "typescript": "^4.3.5"
+    },
+    "engines": {
+        "node": "16.x"
+    }
+}
